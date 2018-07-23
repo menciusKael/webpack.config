@@ -40,9 +40,8 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
       // E:
-      // Utilities: path.resolve(__dirname, 'src/utilities/'),
-      // import Utility from '../../utilities/utility';
-      // import Utility from 'Utilities/utility';
+      //   '~': resolve(__dirname, 'src')  import stickTop from '~/components/stickTop'
+      //    'components': path.resolve(__dirname, '../src/components'),  import stickTop from 'components/stickTop'      
     }
   },
   module: {
